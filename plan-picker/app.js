@@ -1,5 +1,6 @@
 Vue.component("plan", {
-  template: "#plan-template"
+  template: "#plan-template",
+  props: ["name"]
 });
 
 new Vue({
