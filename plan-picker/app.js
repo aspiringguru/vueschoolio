@@ -3,7 +3,6 @@ Vue.component("plan", {
   props: {
     name: {
       type: String,
-      default: "Alex",
       required: true
     }
   }
