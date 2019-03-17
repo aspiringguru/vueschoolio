@@ -8,12 +8,12 @@ let PlanComponent = {
   },
   data() {
     return {
-      selected.false
-    }
-  }, 
+      selected: false
+    };
+  },
   methods: {
-    select(){
-      this.selected = true 
+    select() {
+      this.selected = true;
     }
   }
 };
