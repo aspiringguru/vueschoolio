@@ -5,6 +5,16 @@ let PlanComponent = {
       type: String,
       required: true
     }
+  },
+  data() {
+    return {
+      selected.false
+    }
+  }, 
+  methods: {
+    select(){
+      this.selected = true 
+    }
   }
 };
 

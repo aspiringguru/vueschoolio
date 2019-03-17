@@ -13,3 +13,7 @@ Lesson 4: Nested components
 
 Lesson 5: global vs local components
 global components are included in webpack builds and increases volume of javascript downloaded.
+
+lesson 6: communication between components
+https://vueschool.io/lessons/communication-between-components
+add data and methods to PlanComponent in app.js
