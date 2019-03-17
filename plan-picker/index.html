@@ -22,7 +22,11 @@
 
     <script type="text/x-template" id="plan-picker-template">
       <div class="plans">
-          <plan v-for="plan in plans" :name="plan"></plan>
+          <plan v-for="plan in plans" :name="plan" @select="selectPlan"></plan>
+          <!-- this.$emit("select", this.name) in app.js maps to @select above
+            @select="selectPlan" connects to selectPlan method in PlanPickerComponent
+              id="plan-picker-template" matches template name in app.js definition of
+               PlanPickerComponent   -->
       </div>
     </script>
 

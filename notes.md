@@ -17,3 +17,6 @@ global components are included in webpack builds and increases volume of javascr
 lesson 6: communication between components
 https://vueschool.io/lessons/communication-between-components
 add data and methods to PlanComponent in app.js
+@4:43 - this.\$emit("select", this.name) in app.js maps to @select above, @select="selectPlan" connects to selectPlan method in PlanPickerComponent id="plan-picker-template" matches template name in app.js definition of PlanPickerComponent
+
+asdasd

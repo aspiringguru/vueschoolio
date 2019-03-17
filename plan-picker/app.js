@@ -13,6 +13,7 @@ let PlanComponent = {
   },
   methods: {
     select() {
+      this.$emit("select", this.name);
       this.selected = true;
     }
   }
@@ -25,8 +26,14 @@ let PlanPickerComponent = {
   },
   data() {
     return {
-      plans: ["The Single", "The Curious", "The Addict"]
+      plans: ["The Single", "The Curious", "The Addict"],
+      selectedPlan: null
     };
+  },
+  methods: {
+    selectPlan(plan) {
+      this.selectedPlan = plan;
+    }
   }
 };
 
